@@ -173,15 +173,30 @@ const Arowana = new Fish(2, 'Arowana', 12, 4);
 const Askold = new Dog(7, 'Askold', 68, 4);
 const Star = new Dolphin(4, 'Star', 23, 3);
 const John = new Human(21, 'John', 76, 4);
+const Sparrow = new Birds(1, 'Sparrow', 5, 2);
+const Shark = new Fish(8, 'Shark', 1500, 0);
+const Rex = new Dog(4, 'Rex', 25, 4);
+const Flipper = new Dolphin(10, 'Flipper', 200, 2);
+const Jane = new Human(35, 'Jane', 130, 4);
 console.log('-----------Testing------------')
 console.log(Vulture)
 console.log(Arowana)
 console.log(Askold)
 console.log(Star)
 console.log(John)
+console.log(Sparrow);
+console.log(Shark);
+console.log(Rex);
+console.log(Flipper);
+console.log(Jane);
 console.log('-----------Examples------------')
 console.log(Birds.isBird(Vulture));
 console.log(Fish.isFish(Arowana));
 console.log(Dog.isDog(Askold));
 console.log(Dolphin.isDolphin(Star));
 console.log(Human.isHuman(John));
+console.log(Birds.isBird(Sparrow));
+console.log(Fish.isFish(Shark));
+console.log(Dog.isDog(Rex));
+console.log(Dolphin.isDolphin(Flipper));
+console.log(Human.isHuman(Jane));
